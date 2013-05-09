@@ -79,6 +79,7 @@ end
 # install apt packages
 package "git-core"
 package "curl"
+package "unison"
 
 # This is really hacky. Let's pretend I didn't do it like this.
 execute "get-drush-dependencies" do
